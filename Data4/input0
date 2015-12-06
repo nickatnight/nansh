@@ -1,0 +1,3 @@
+/usr/local/bin/rm -f your.outputA
+grep umask /etc/csh.login /nosuchfile >& your.outputA
+grep umask /etc/csh.login /nonexistent >>& your.outputA

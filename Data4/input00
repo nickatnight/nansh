@@ -1,0 +1,3 @@
+echo with multiple children, document whose exit value you will report
+cat -nu /etc/csh.login | grep aardvark
+grep aardvark /etc/csh.login | cat -nu

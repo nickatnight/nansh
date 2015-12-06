@@ -1,0 +1,1 @@
+</home/ma/cs570/Data1/input1 cat|tr a-z A-Z | tr \\ q > your.outputc

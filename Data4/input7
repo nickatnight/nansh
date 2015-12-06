@@ -1,0 +1,1 @@
+cat < /home/ma/cs570/Data1/input1 | tr bfusc scill | tr eh as > your.outpute

@@ -1,0 +1,8 @@
+cd /tmp this and the next 4 should all cause complaints to be sent to stderr
+sort < /etc/shells < /etc/vrtswebtab
+< somefile
+/usr/bin/uname >>&
+sort | &
+echo This echo and the next cd SHOULD be executed by your shell and NOT cause errors
+cd /kernel/ >& outputx &
+/usr/bin/pwd
